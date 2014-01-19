@@ -1,0 +1,60 @@
+body {
+	margin-top: 70px; /* 50px is the height of the navbar - change this if the navbarn height changes */
+}
+
+/* change the URL to a picture of your choice - the higher quality the better! */
+.business-header {
+	height: 400px;
+	background: url(../images/top.jpeg) center center no-repeat;
+	background-size: cover;
+}
+
+/* adjust the color and text shadow to optimize legibility once you have an image set - you can also change the vertical positioning if desired  */
+.tagline {
+	color: #fff;
+	text-shadow: 0 0 10px #000;
+}
+
+footer {
+	margin: 50px 0;
+}
+
+h2 {
+    padding-top: 20px;
+    margin-top: 0;
+}
+
+p {
+    font-size: 15px;
+    line-height: 25px;
+}
+
+hr {
+    margin: 50px 20px;
+}
+
+.navbar-brand h1 {
+    margin: 0;
+}
+
+.navbar-nav > li > a {
+    padding: 25px 20px;
+}
+
+#advantages li {
+    margin: 10px 0;
+    padding-left: 1.0em;
+    text-indent:-1.0em;
+}
+
+#advantages .glyphicon {
+    color: #468847;
+}
+
+#sign-up-link {
+    font-size: 150%;
+}
+
+#sign-up-link a {
+    padding: 22px 20px 25px;
+}
